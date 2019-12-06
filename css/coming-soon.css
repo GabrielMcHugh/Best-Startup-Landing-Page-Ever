@@ -54,8 +54,8 @@ video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #cd9557;
-  opacity: 0.7;
+  background-color: #5ED844;
+  opacity: 0.3;
   z-index: 1;
 }
 
@@ -64,6 +64,10 @@ video {
   overflow: hidden;
   padding-bottom: 3rem;
   z-index: 2;
+}
+
+.masthead-color {
+  color: #252C13;
 }
 
 .masthead .masthead-bg {
@@ -75,7 +79,7 @@ video {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: rgba(255, 251, 80, 0.8);
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -152,7 +156,7 @@ video {
 .social-icons ul > li > a {
   display: block;
   color: white;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: rgba(117, 164, 0, 0.8);
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
@@ -194,13 +198,14 @@ video {
 }
 
 .btn-secondary {
-  background-color: #cd9557;
-  border-color: #cd9557;
+  background-color: #C2F14C;
+  border-color: #C2F14C;
+  color: #252C13;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #ba7c37 !important;
-  border-color: #ba7c37 !important;
+  background-color: #8FCA00 !important;
+  border-color: #8FCA00 !important;
 }
 
 .input {
